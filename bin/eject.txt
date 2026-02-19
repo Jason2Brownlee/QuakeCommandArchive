@@ -1,0 +1,59 @@
+EJECT! A Quake C Modification by Steve Bond
+
+Email: wedge@nuc.net
+
+Visit QUAKE COMMAND!  http://www.nuc.net
+---------------------------------------------------------------------------
+
+Eject is a fairly simple modification that makes the Shotgun and Double
+Barrel Shotgun eject shell casings (VERY cool.) Nothing really technical
+about this one, I made this patch because there were two new things I wanted
+to try to work with - Custom MDL files, and PAK files. As far as models go,
+the Shotgun Shell is just a cylinder mapped with a texture I painted for it.
+Working with PAK files was much easier than I'd expected. (Thanks to Tom
+Wheeley for XPAK - excellent tool.) The PROGS.DAT file, the Shotgun Shell
+model, and the Clatter sound effect are all stuffed into one pak file. Makes
+things a lot easier to set up. Speaking of...
+
+Installation:
+-------------
+1) Make a directory in your QUAKE directory called EJECT
+
+2) Copy the PAK0.PAK from this archive into your EJECT directory.
+
+3) Start Quake by typing "QUAKE -GAME EJECT"
+
+4) Fire your shotgun once or twice. Better yet, go find a double barrel.
+
+
+Notes:
+------
+This is primarily to make multiplayer games more engrossing, if you
+are forced to play with this patch in single play mode, mouselook towards the
+ground and fire the shotgun, you'll get a pretty good idea of the effect.
+
+Shells will stick around for 20 seconds, then disappear.
+
+
+Known Problems:
+---------------
+Uh. Between the time that I painted the texture and it got mapped onto the
+shell and thrown into the game, it looked a little more orange than the
+original red. :(  (I still think they look great for their size.) This causes
+them to be visible (glow) in darker areas. Quake's palette is pretty skimpy
+when it comes to rich reds, and the brighter reds all glow in the dark... so
+I did what I could.
+
+Sometimes 2 shells will fly out of the double barrel shotgun stuck together.
+Random numbers are pretty safe, but sometimes the same two get picked.
+
+
+
+If you find any problems with this patch, please Email me. Thanks!
+
+
+(If you seek the source for this file in order to add it to an exisiting
+server, please email me.)
+
+-Steve
+

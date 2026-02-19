@@ -1,0 +1,6 @@
+# wanted files
+
+ejectqc.zip
+taxkit.zip
+taxsrc.zip
+testkart.zip

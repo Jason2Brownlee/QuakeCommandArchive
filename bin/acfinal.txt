@@ -1,0 +1,232 @@
+============================================================================
+
+The Quake Command Aircraft & Source - Abandoned!
+
+        Quake C Code:   Steve Bond      (wedge@nwlink.com)
+        Models      :   John Guthrie    (choryoth@nuc.net)
+
+        Special Thanks:
+
+        The HANGAR.BSP Map :    Marc Fontaine   (mafon@stud.uni-sb.de)
+        All-new model skins:    Dan Bickell     (danbickell@loop.com)
+        Aircraft Sound FX  :    Ray Loggins     (loggins@avana.net)
+
+============================================================================
+
+Quick Note
+----------
+The aircraft project has been lying around for months. I'm too busy and too
+disinterested to continue working on it. This is the final working version
+of the aircraft that I will personally release. Most of the things that people
+complained about are now fixed. The source is included with this release, do
+as you please with it, but be sure to read and observe the conditions as
+described in the AIRCRAFT.QC file.
+
+If you plan to rework the Aircraft source into your own project, please make
+your own models.
+
+You'll find the source code in the ACSRC.ZIP file in this archive.
+
+
+Installation
+------------
+In this archive, you will find three files:
+
+        README.TXT      - This text file
+
+        PROGS.DAT       - The compiled Quake C code that makes the
+                          aircraft work.
+
+        PAK0.PAK        - This is a resource file that contains all of the
+                          new graphics, sounds, and levels.
+
+1) Make a directory in your QUAKE directory. Name this directory 'ACBETA2'
+
+2) Copy the PROGS.DAT and PAK0.PAK files into the ACBETA2 directory.
+
+3) Now, change to your QUAKE directory and start the game by typing
+        'quake -game acbeta2'
+
+4) Pull down your Quake Console (hit the ` key at the top left of your
+   keyboard.) and type 'map hangar'  or  'map testarea' depending on which
+   level you wish to play.
+
+5) Now you must bind some keys to control the aircraft. Here are the impulses
+   and what each one does:
+
+        IMPULSE 15      - Selects the STINGER missile launcher weapon
+                          (when you are on foot)
+
+        IMPULSE 100     - This will instantly put you inside of an aircraft,
+                          but only in a single-player or COOP game.
+
+        IMPULSE 101     - This will eject you from an aircraft; you'll need
+                          this one to bail out of a weak or low-fuel aircraft.
+
+        IMPULSE 102*    - 'Hover mode' This will allow you to hover in an
+                          aircraft.
+
+        IMPULSE 103*    - 'Half Speed' Makes the aircraft go at half forward
+                          speed.
+
+        IMPULSE 104*    - 'Full Speed' Makes the aircraft haul ass.
+
+
+* You do not need to hold these keys down. Just tap them once to set the
+  speed at which you wish to travel. Also note that the aircraft does not
+  start and stop instantly. Make your throttle change and then wait for your
+  craft to speed up or slow down.
+
+
+Controlling the Aircraft
+------------------------
+The aircraft was designed to be used with FREELOOK. Moving the mouse around
+will aim the nose of the aircraft. The aircraft will always fly the direction
+it is pointing. To gain altitude, point the nose up - the descend, point
+the nose down. 
+
+
+Aircraft Weapons
+----------------
+        VULCAN CANNONS
+        The aircraft is equipped with 2 rapid firing reciprocating cannons.
+        New aircraft come with 200 rounds for this weapon. To select the vulcan
+        just hit '1' when you are in the aircraft. This is the best all-around
+        weapon, and the only smart choice for air-to-air combat.
+
+        FFAR
+        There is an FFA rocket launcher on either side of the aircraft. These
+        rockets are smaller and a bit weaker than regular rockets. Each time
+        you press the fire button a volley of 4 FFARs will be launched. You
+        must wait 6 seconds for the FFARs to reload between shots, but you can
+        never run out. Use these to pummel puny ground targets. Hit '2' when
+        you are in an aircraft to select FFARs.
+
+        THE STINGER MISSILE
+        This one is for the ground troops. This one shot wonder eats aircraft
+        (and other people) for brunch. Usage is a little tricky though. The
+        Stinger is a heat-seeking missile, and requires you to lock onto a
+        target before you can launch. When you select the stinger (impulse 15)
+        you will see the launcher protruding from your right shoulder and
+        there will be a targeting reticle in the center of your screen. The
+        red dots must touch the target you wish to lock the missile on. Simply
+        aim so that the red dots are touching an aircraft or another player
+        and hold them on target for a moment and you will see a "LOCK" message
+        in the launcher's reticle. FIRE! If you are on foot and someone locks
+        a Stinger on you, you will see a "MISSILE LOCK" message. In the
+        aircraft you will see this message, and hear a warning tone. If
+        someone launches a stinger at you, you see an "INCOMING!" message.
+        Time to think and move fast. Hide somewhere, eject, or try to outrun
+        the missile until it runs out of fuel (good luck). **NOTE** The
+        stinger missile does not arm until it is a few feet out of the
+        launcher. This is a feature to protect the user. If you launch a
+        Stinger at a target that is very close, the missile will just bounce
+        off without detonating or inflicting any damage.
+
+Misc.
+-----
+You can destroy ANY aircraft, anytime. Even empty ones on the ground including
+the ones that are spawned as part of the level (they will respawn). Only
+explosive weapons will destroy unmanned aircraft (Missiles and Grenades).
+
+You can get into any aircraft that is vacant. So you can jump into a craft
+that someone else ditched. Aircraft that are out of fuel will obviously not
+get you very far.
+
+Aircraft will go under water, and you won't drown. I didn't intend for these
+to be submarines, but this feature will be present in this BETA version.
+
+LAG! If you have ever tried to play ACBETA over modem or the internet with
+a modem, you know that exploding aircraft will lag you to hell. The explosions
+are too cool to ditch though, so I added a NONLAN detail setting that will
+help out a lot if you are playing over a modem. If you set SV_MAXSPEED to 321,
+the exploding aircraft will not trail fire. There will still be some lag
+(workin on it), but performance should be at least 75% better in most cases.
+The detail level will be controlled differently in the final, but SV_MAXSPEED
+is fine for now.
+
+The Levels
+----------
+There are 2 custom levels included in this package, they are BOTH inside of
+the PAK file. I received a lot of email from confused people that insisted
+that these two levels were not present in the first release. THEY *ARE* in
+the PAK.
+
+
+        TESTAREA.BSP
+        :sigh: I made this one. It's really big and got beat with the ugly
+        stick REAL hard. This level predates AWESOME Quake Map Editors
+        such as Worldcraft (www.islandnet.com/worldcraft/) so I had to make
+        do with what I had at the time. This is the level where the aircraft
+        was born and tested, so I couldn't bear to leave it out of this
+        archive :sniff: There are new bunkers and other hiding places and
+        some nailguns and a rocket launcher for people on foot.
+       
+        HANGAR.BSP  
+        A very awesome level that Marc Fontaine produced just for this
+        project. There is plenty of action here whether you have the aircraft
+        or not. There is a quad damage and suit of armor stashed away in the
+        hangar -  good stuff for when you need to fight an aircraft.
+        **** NOTE ****
+        PLEASE note the correct spelling of the word 'HANGAR'. A HANGER
+        is something you put your coat on. A HANGAR is where aircraft
+        are stored. You MUST spell HANGAR correctly to get this map to work.
+        **************
+
+        Changes Since ACBETA first release:
+        -----------------------------------
+        Screen no longer flashes every 4 seconds (sorry!)
+
+        LAN/NOLAN detail levels enabled for better modem/tcp performance.
+        Modem players/Net admins, set SV_MAXSPEED to 321 to turn off
+        high (lag) detail.
+
+        You can't drown in the aircraft anymore. (It will still behave kinda
+        funny if you get in it underwater and fly out, though)
+
+        Aircraft no longer stops or starts on a dime. You must wait for
+        it to accelerate/decelerate.
+
+        Remaining Fuel is now displayed on the status bar, where the armor
+        value is usually displayed (this is only when you are in an aircraft-
+        the armor 'gauge' functions normally when on foot).
+
+        Vulcan ammo is no longer unlimited. Each aircraft spawns with 200
+        rounds on board. There is no more waiting for reload.
+
+        Vulcan rounds remaining are now displayed on the status bar, where
+        the ammo readout appears normally.
+
+        You no longer crash and die when you run out of fuel in an aircraft-
+        The aircraft will eject you unharmed.
+
+        If you are flying an aircraft and someone locks you with a stinger
+        missile, the stinger will still track your aircraft, even after you
+        eject (You'll no longer be plowed by a stinger if you eject. Yay!)
+        * Humans on foot are still valid stinger targets.  >:) *
+
+        Aircraft speed is consistant (there was a bug in which the aircraft
+        moved much faster if you jumped into it instead of walking in to it-
+        It goes top speed now, no matter how you get in.)
+
+        By popular demand, Stinger now locks faster.
+
+        Replaced the annoying "patank" with a groovy sound effect.
+
+        If you smack an aircraft into a wall, floor, etc, the cockpit doesn't
+        shake the same direction every time. (happy now, sCary?)
+
+        Reduced the frequency of radio messages.
+
+        You are no longer a dead man when you run out of fuel. The aircraft
+        will lose power and you will fall and crash, but you won't be harmed.
+        It is now possible to eject from a craft that has no fuel.
+
+        Now you can ram (and HURT!) other aircraft and people on foot.
+
+        Fixed some problems with sounds overriding other sounds.        
+
+        ...And some more. Dun furgot.
+
+-Steve
+(wedge@nwlink.com)

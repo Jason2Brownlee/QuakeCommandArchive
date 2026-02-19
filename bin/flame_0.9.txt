@@ -1,0 +1,80 @@
+=============================================================================
+
+Quake Flamethrower! v.9
+
+Another amazing Quake Add-On from Quake Command - http://www.nuc.net/quake
+
+8/29/96
+
+QC Code - Wedge (wedge@nuc.net)
+
+=============================================================================
+
+
+Here is something that was highly requested, but there was never time to
+work on it. Then while we were developing Napalm for the 'Aircraft' project
+we got a chance to break away and crank out a flamethrower.
+
+
+Installation:
+-------------
+
+1. Make a directory in your QUAKE directory called FLAME
+
+2. Copy PROGS.DAT from this archive to the FLAME directory
+
+3. Start Quake by typing QUAKE -GAME FLAME
+
+
+Use
+---
+I was originally going to make the flamethrower go along with the rocket
+launcher, but things being the way they are, the rocket launcher is already
+the most popular weapon (to some, at least). and everyone scrambles for it,
+so I decided to package the Flamethrower with the Grenade Launcher. This means
+if you pick up a Grenade Launcher, you automatically get the Flamethrower.
+
+The Flamethrower uses ROCKETS for fuel, and uses them quickly. The range is
+fairly short, but this weapon is very powerful. The best part is, you can
+set people on fire! If you get set on fire by a flamethrower, you better get
+your ass to some water or slime >QUICK< If you roast while trying to find
+water, whoever set you on fire gets a frag. You may NOT stop-drop-and-roll.
+(Sorry Smokey) Be sure to scope the cool bubbles after some human torch peter
+pans into the water.
+
+You cannot set yourself on fire with your own flamethrower... sorry.
+(I'm sure you don't mind.)
+
+Oh yeah, to select the flamethrower, select the Grenade Launcher twice (6)
+(You'll see the onscreen messages) The cycle weapons command will also select
+the flamethrower (after the Grenade Launcher)
+
+
+Notes
+-----
+There are NO custom models or sounds for this add-on. It would have been cool,
+but that would make it harder to implement this patch on servers. When this
+weapon becomes part of a multi-patch that has custom sounds or models we will
+add them.
+
+Known Problems
+--------------
+That's your job. Email problems to wedge@nuc.net
+
+
+SOURCE?!
+--------
+PLEASE DO *NOT* write me asking for source. I will release the source as
+soon as I have it commented, and I will comment it as soon as I have time. I
+anticipate this to be a popular item for servers, so I will make the source
+available SOON! Check the page. Bugging me with Email only slows the process.
+
+
+(oh yeah, DO NOT do an impulse 187)
+
+
+Visit Quake Command! ---->  http://www.nuc.net/quake
+
+
+
+

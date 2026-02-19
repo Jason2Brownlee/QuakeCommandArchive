@@ -1,0 +1,58 @@
+=============================================================================
+
+Quake Jetpak v.01
+
+Yet another one from the guys at Quake Command! http://www.nuc.net/quake
+
+QC Code: Wedge  MDL: Choryoth
+
+============================================================================
+
+** We are in no way affiliated with Id Software, Inc, the makers of Quake.
+Id Software will not provide techinical support for this addon.
+
+Just something we whipped up in a couple hours...
+
+This project was just a way for me to develop and refine a method to
+coordinate the movements and attitudes of two completely separate entities,
+a technique I will need to master in order to make the jeep (under
+development) and other multi-passenger vehicles work.
+
+This was a lot of fun to whip up, but I have other work to do (JEEP), so I'm
+gonna let you guys have a look at this, and I may come back to this project
+later and refine everything, but for right now this is NOT A SUPPORTED PROJECT
+Please do not email with bugs, suggestions, etc about the Jetpack. I'll come
+back to it later, but now there are bigger things waiting.
+
+Installation:
+-------------
+Make a directory in your Quake directory called JETPACK
+
+Copy the pak0.pak from this zip archive to the JETPACK directory
+
+Start Quake by typing "quake -game jetpack"
+
+Use:
+----
+Impulse 100 will toggle the jetpack on or off.
+
+When jetpack is on, hold down jump to thrust, and mouselook. You will fly
+in the direction that the TOP of your head is pointing. (Opposite direction
+from where the thrust comes out. Ain't Newton cool?)
+
+That's it. There's no fuel, no balance, no nothing. Just like play with it
+and have fun. Don't bug me about it, please, until I announce that the
+project is reopened.
+
+This file does include a custom model and sound. (Take a look in multiplayer)
+The jetpack doesn't look all that groovy, well, the model is cool, but the
+texture is not. :) But you can see a pak on the dude's back in multiplay.
+
+-Wedge
+9/13/96
+
+Visit Quake Command! http://www.nuc.net/quake
+
+Visit sCary's Quakeholio, too! http://www.quakehole.com
+
+

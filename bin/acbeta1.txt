@@ -1,0 +1,181 @@
+AIRCRAFT v0.9 (Public Beta, First release)
+------------------------------------------
+
+READ BELOW OR DIE:
+------------------
+THIS SOFTWARE MAY NOT BE REVIEWED, PUBLISHED, OR OTHERWISE COMMERCIALLY
+EXPLOITED, PROMOTED, OR EVALUATED. If wish to promote this project,
+or promote yourself through use or exploitation of this project, contact
+me first. (wedge@nuc.net) 
+
+What you have now is a very rough, but functional BETA version of our
+Aircraft project. Everything 'works', but I know everything doesn't work
+quite right. That's what makes this a BETA. I expect to receive bug reports
+and maybe a few suggestions. DO NOT Email me nitpicky bullshit based on this
+version. There's too much important stuff to take care of FIRST. Do not write
+and complain about how long something takes to reload or respawn, or how much
+damage is done or not done by the weapons. Help us concentrate on actual
+problems. We are not idiots. If you see something obvious, be sure that we
+already know about it. We are, after all, the guys that made it.
+
+** Some debugging information may print to the screen/console at certain
+times. Just ignore it. :)
+
+BUG REPORTING:
+--------------
+PLEASE, before emailing, visit Quake Command QuakeC Page
+(http://www.nuc.net/quake/quakec) and go to the AIRCRAFT BETA section and
+Check the list of problems and suggestions that we have already received. If
+you find your problem/suggestion on the list, don't EMail me. If I spend 2
+hours each day deleting redundant email, I don't get to work on the aircraft.
+
+Credits:
+--------
+Quake C Code : Steve Bond       wedge@nuc.net
+ALL MDLS     : John Guthrie     choryoth@nuc.net
+
+Awesome HANGAR Level made by Marc Fontaine (mafon@stud.uni-sb.de)
+
+Aircraft sounds submitted by Ray Loggins  (loggins@avana.net) (Great Job!)
+
+Some Aircraft sounds also submitted by Shakath Jei (shakath@im4u.net).
+Shakath's sounds were not used, but the effort is appreciated.
+
+
+Installation:
+-------------
+It's easy. Make a directory called ACBETA in your Quake directory, and move
+the PAK0.PAK file from this archive into the ACBETA directory.
+
+Start Quake by typing "QUAKE -GAME ACBETA +MAP HANGAR" along with your other
+normal game parameters.
+
+** There are TWO levels included with this BETA. HANGAR, which is an excellent
+level made by Marc Fontaine, and TESTAREA that I made :( Testarea is really
+crappy, but it's the level that almost all aircraft testing was done on, and
+may provide some entertainment. (I mean, TESTAREA is really, really crappy.)
+
+To play the HANGAR level type "MAP HANGAR" into the console.
+
+To play the TESTAREA level type "MAP TESTAREA" into the console.
+
+
+Controlling The Aircraft:
+-------------------------
+Here are the key bindings I use, and their functions:
+
+Key             Impulse                 Function
+------------------------------------------------
+SPACEBAR        Impulse 101             Eject
+z               Impulse 15              Ready Stinger Missile (If owned)
+,               Impulse 102             Hover Mode
+.               Impulse 103             Slow Speed
+/               Impulse 104             Fast Speed
+[               Impulse 100             INSTANTLY puts you in an aircraft.
+                                        Useful for exploring regular Quake
+                                        levels with an aircraft.*
+
+
+* Don't cheat, dammit. Impulse 100 only works in Single Play and COOP mode.
+
+
+Basically, you get into an aircraft, and select a throttle setting (hover,
+slow, or fast) and the craft will begin moving. Point the nose of the vehicle
+using MOUSELOOK, and it will fly in the direction you are pointing it.
+
+Aircraft Weapons:
+-----------------
+When in the aircraft, you may select one of the two weapons systems by
+hitting 1 or 2 on the keyboard:
+
+1 - 'Vulcan' cannons. Not really Vulcans, vulcans are much larger and spin...
+but I called them vulcans for this release anyway. They are twin rapid-firing
+machine guns that will gnaw on a player or another plane like a pit bull on
+rawhide. Unlimited ammo, but you must wait for them to reload after firing
+a certain number of rounds.
+
+2 - FFARs (Folding Fin Aerial Rockets) There is a missile pod situated on
+either side of the vehicle. Each of the pods will fling two missiles every
+time you touch the button. This is a slighty-spread 4 rocket death blossom
+that screams towards your target at high speed. Unlimited ammo, but requires
+3 seconds to reload between volleys.
+
+Other Weapons:
+--------------
+On each of the two provided levels you will find a Stinger Missile Launcher.
+This is a good thing. When you ready the stinger launcher, you will see the
+tube resting on your shoulder and a Square recticle in front of your face.
+Inside of the recticle you will see a few red dots that move (Particles).
+Aim so that the red dots are on top of a person or aircraft, and HOLD the
+target under the dots for a moment, and you will see "LOCK." As soon as you
+see this message, FIRE. The missile will take off slowly at first, then fly
+very quickly, tracking it's target. A stinger will most times knock a
+completely healthy Aircraft right the hell out of the air. And people... well.
+
+        Stinger Notes:
+        --------------
+        The 'beam' that controls the locking has a limited range. So if you
+        can't get a lock on a distant target, get a little closer.
+
+        The missile arms one second after you fire it. If you fire a stinger
+        at a target that is very close, the missile may strike the target
+        before it arms, and it will just bounce harmlessly to the ground.
+
+
+Notes:
+------
+You can blow up planes that other players eject from. You cannot blow up
+planes that are spawned by the world. ONLY explosive weapons will damage
+empty aircraft.
+
+If you don't eject from the aircraft BEFORE all of it's health/fuel is gone,
+then you are stuck for the long ride to the dirt. Know when to bail. 
+
+Empty planes take damage when they hit the ground. Eject from a good height
+when your plane is damaged and it may blow up on impact.
+
+This is primarily a multiplayer add-on. Quake's levels are a little cramped
+for something like this, so please test the aircraft on the supplied levels
+first, then creep around in some Quake levels. If you don't have the
+opportunity to play multiplayer, you will have fun, but not as much fun as
+the 4 guys slugging it out over a LAN. :) It's NOT fun to fly around bouncing
+off of walls and shooting ogres.
+
+We did a six player Internet test recently, and found many many features
+in this add-on that create TONS of lag for Modem players... some of those
+features are the BEST part, so we've decided to Produce a FULLBLOWN
+Just-for-LAN version with all the fire and chunks that make it fun. After
+that is completed, we will cut back on some of the gibbage, etc and try to
+make a decent 'net version. Some of the lag had to do with the huge wide
+open map (house of Cthon syndrome) where all the players can always see all
+the others and there is tons of crap flying everywhere. ANYWAY -> the version
+that you have here is a prerelease of the HIGH DETAIL, LAN RECOMMENDED version
+Expect adjustable detail levels in the next version.
+
+Oh yeah, when you are in an aircraft, I know the cockpit looks crappy (well,
+the model is excellent, but the texture is crap) John modeled that cockpit,
+and I, Steve, painted the ridiculous texture. :( Working on it.
+
+IF YOU WISH TO MAKE A LEVEL FOR THE AIRCRAFT:
+---------------------------------------------
+You may place an Aircraft in a level by placing an entity with the classname
+"item_aircraft"
+
+You may place a stinger missile launcher in a level by placing an entity
+with the classname "weapon_stinger"
+
+If you like the aircraft, and can build levels, we encourage you to work on
+levels for this thing, because standard Quake levels are NOT aircraft
+friendly.
+
+
+-----------------------------------------------------------------------------
+
+That's all I can think of. If I find that I have overlooked something of dire
+importance, I will post it to QUAKE COMMAND. (http://www.nuc.net/quake) This
+readme file was a rush job, and for that I apologize. Just mess around in the
+game, you'll find all the goodies.
+
+-Steve  9/10/96
+wedge@nuc.net
+

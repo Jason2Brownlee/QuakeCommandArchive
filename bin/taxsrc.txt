@@ -1,0 +1,40 @@
+Just a quick note following the release of the THROWAXE source:
+
+The necessary MDL and WAV files to fully recompile this have been included
+Directory structure should look like this (or similar... I'm assuming you
+don't need me to hold your hand):
+
+c:\games\quake\throwaxe -       throwaxe.mdl
+c:\games\quake\throwaxe\sound - taxhit1.wav,taxhit2.wav,taxhit3.wav,woosh.wav
+c:\games\quake\throwaxe\progs - all .QC files
+
+
+I only recall (shame on me - never will this happen again) making changes to:
+
+PROGS.SRC
+DEFS.QC
+WEAPONS.QC
+PLAYER.QC
+CLIENT.QC
+
+as well as adding
+
+THROWAXE.QC
+
+
+In this archive, I've included all of the .QC files that Carmack released,
+as well as Throwaxe.qc. I suggest adding other patches to THIS one , instead
+of the other way around. There are several hacks in several places to make
+this one work, so it will surely be easier to add to this rather than adding
+it to something else.
+
+
+The source code is *NOT* heavily commented. I regret admitting that I got into
+a rush on this one so I could work on AIRCRAFT some more. Email me with
+any questions. Otherwise, enjoy, and if you run this patch on your server, I'd
+love to hear about it.
+
+
+-Steve (Wedge)
+wedge@nuc.net
+

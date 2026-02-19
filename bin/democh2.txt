@@ -1,0 +1,24 @@
+Demo Charges v2
+
+8/8/96 Steve Bond (wedge@nuc.net)
+Custom bomb model by John Guthrie (choryoth@nuc.net)
+
+reach us both at QUAKE COMMAND - http://www.nuc.net/quake
+-------------------------------------------------------------------------
+
+I'm not going to write a lengthy readme for this one... I'm assuming (hoping)
+you've seen the old version of this patch.
+
+
+after unzipping, move all the files from the archive into the Quake directory.
+
+type INSTALL. This will install the patch in a directory called 'democh2'
+the install program will clean up after itself.
+
+type QUAKE -GAME DEMOCH2  to play.
+
+Bind one key to impulse 32 (this throws the bombs)
+Bind one key to impulse 33 (this detonates the bombs)
+
+
+

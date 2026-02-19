@@ -1,0 +1,66 @@
+Quake Flares
+7/31/96 Steve Bond (wedge@nuc.net)
+Check out QUAKE COMMAND!  http://www.nuc.net/quake
+--------------------------------------------------
+
+This is a .DAT file that gives you flares similar to the flares in Descent.
+These are spike-shaped flares that you shoot into a wall/floor/ceiling to
+light up dark areas (excellent for marking a teams' position/path in COOP
+games, too). The flares give off a dim light when you fire them, and shortly
+after they stick in the wall they will sizzle and spark to life, brightly
+illuminating the area around it. After 7 or so seconds at full burn the flare
+will dim again, and 15 seconds later it will burn out.
+
+
+
+Installation/Use
+----------------
+
+1. In your QUAKE directory make a directory named FLARES
+
+2. Copy the PROGS.DAT file from this archive into the FLARES directory
+
+3. Copy the CONFIG.CFG from your ID1 directory into the FLARES directory and
+   add the following line:
+
+   bind f "impulse 20"
+   (you may replace 'f' with the key you wish to have fire flares)
+
+4. Start Quake by typing QUAKE -GAME FLARES
+
+5. When in Quake, hit 'f' (or whichever key you bound to impulse 20) to launch
+   a flare.
+
+
+Notes:
+------
+It doesn't matter which weapon you are currently using when you fire flares.
+I never intended to make a flare gun for Quake. Just flares that are handy
+and quick to deploy.
+
+You can only fire one flare every half-second. This is partly to keep from
+accidently launching two flares at a time. Also, light-rendering in Quake tends
+to take a little time, especially with bright lights; so I imposed the limit
+to keep you from going ape shit flinging flares everywhere and slowing your
+game to a crawl.
+
+I didn't want to put a cap on how many flares could be burning at once, cause
+I never know when you might need just *ONE* more flare. Just use your better
+judgement. Sample how slow your game gets when you launch a couple in the
+same room.
+
+Flares will do one hit point of damage if you hit a monster/player with them.
+
+Known Problems:
+----------------------------------------------------------------------
+If you fire a flare while standing waist or chest deep in water, it will
+sometimes disappear, and other times it will hit down the way a bit from you.
+(You'll see what I mean) I cannot find any code in weapons.qc to dictate that
+spikes should be treated differently when you are standing in water. I'll
+look into it.
+
+-Steve
+
+
+
+

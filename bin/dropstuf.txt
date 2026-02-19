@@ -1,0 +1,70 @@
+==========================================================================
+DropStuf - Another QuakeC modification by Steve Bond/John Guthrie
+
+Check the QUAKE COMMAND Web Page at http://www.nuc.net/quake
+Email: wedge@nuc.net
+==========================================================================
+
+What is it?
+-----------
+This is a patch for Quake that will allow you to put your current weapon
+and some of it's ammo into a backpack and throw it. This is great for Team
+Deathmatch... you can hand down a weapon you aren't using to a newly-spawned
+teammate -or- you can toss a couple of these packs into a dark corner if you
+think you might die soon. After spawning you can go back and get the goods.
+
+Installation
+------------
+1. In your Quake directory, make a directory called THROW
+
+2. Copy the PROGS.DAT file from this archive into the THROW directory
+
+3. Copy the CONFIG.CFG file from the ID1 directory into the THROW directory
+   and add this line:
+                        bind t "impulse 31"
+                        (you may replace 't' with any letter you choose)
+
+4. Start Quake by typing QUAKE -GAME THROW
+
+5. When playing, if you want to toss a weapon, select the weapon as if you
+   were going to shoot someone with it, then press T (or whichever key you
+   set up as impulse 31). This will bundle the weapon and some ammo in a pack
+   and toss it in whichever direction you are mouselooking.
+
+
+Notes:
+------
+If you wish to use this patch in a multiplayer game, only the computer
+that is acting as the server will need to run this patch. All players should
+bind a key to IMPULSE 31 if they wish to be able to throw packs.
+
+A player-thrown pack will stick around for 7 minutes rather than the 2
+for a pack dropped by a dying player. This is so you have more time to stash
+weapons and come back for them, or establish a place where you and your
+teammates will make weapons available for each other when someone is fragged.
+
+
+Recompiling:
+------------
+You must add DROPSTUF.QC just under WEAPONS.QC in the PROGS.SRC file. You
+must also add the following lines to WEAPONS.QC with the rest of the impulse
+commands:
+
+if (self.impulse == 31)
+        dropstuff ();
+
+Then it should recompile fine.
+
+Known Problems:
+---------------
+If you are trying to throw a pack downward at a sharp angle, the pack will
+hit you instantly, and you will regain it's contents. There is no such
+problem when throwing a pack upwards. I reduced the size of the pack's
+bounding box by half and that helped, but very sharp angles still do not work.
+The only other way to fix this is to have the pack materialize farther away
+from the thrower, but that sacrifices too much realism to suit me.
+
+If you uncover any other problems while using this patch, please email me.
+
+-Steve 8/1/96
+

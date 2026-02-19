@@ -1,0 +1,72 @@
+
+Demo Charges v1.0 - For Quake Registered
+
+8/7/96 - Steve Bond     wedge@nuc.net
+
+Visit Quake Command     http://www.nuc.net/quake
+
+
+
+What is it?
+-----------
+DEMO CHARGES is a new PROGS.DAT (made with QuakeC) that adds a new weapon
+to Quake - remotely detonated bombs that adhere to any wall, floor, or
+ceiling. You may plant several of these charges around in a level then run
+to safe distance and set them all off! (There is a limited range, so don't
+run too far from your goodies or they won't go off.)
+
+
+Installation/Use:
+-----------------
+1. Make a directory in your Quake directory called DEMOCHRG.
+
+2. Copy the PROGS.DAT file from this archive into the DEMOCHRG directory.
+
+3. Copy the CONFIG.CFG from your ID1 directory to the DEMOCHRG directory
+   and add the following lines:
+
+        BIND [ "IMPULSE 32"
+        BIND ] "IMPULSE 33"
+
+   (You may change [ and ] to whichever keys you choose)
+
+4. Start Quake by typing "QUAKE -GAME DEMOCHRG".
+
+5. While playing , press [ to throw  demo charges and ] to detonate the
+   charges (you may throw/detonate as many charges as you wish - take note:
+   it takes 6 rockets to throw one demo charge).
+
+6. If you find a charge that someone else has planted, you may pick it up
+   by touching it. If you pick up someone else's charge, they can no longer
+   detonate it - the charge is yours. (Make sure no one is watching and
+   waiting to blow you to chunder.)
+
+
+Notes:
+------
+You can only pick up a demo charge that is sitting still. You cannot catch
+them in mid air.
+
+Demo charges arm one second after you throw them.
+
+You may only throw one demo charge every second.
+
+
+Known Problems:
+---------------
+This seems to be a very robust patch. I've tested it at length, both in
+single and multiplayer games. However:
+
+If a charge hits a player or monster while it (the charge) is still moving,
+it will go through the player/monster. This is a byproduct of the mods I made
+so that you could pick these things after someone else drops them.
+
+I dunno if this is a problem, but any charges you lay will belong to you even
+if you die. So you can die, respawn, and detonate the charges that you laid
+before you died.
+
+If you find any problems, please EMail me.
+
+
+-Steve
+

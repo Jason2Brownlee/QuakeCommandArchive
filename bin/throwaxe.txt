@@ -1,0 +1,83 @@
+===========================================================================
+Throwing Axe 2.1 - Another outstanding Quake Add-On by Wedge & Choryoth!
+
+Email:                  wedge@nuc.net   choryoth@nuc.net
+Visit Quake Command:    http://www.nuc.net/quake
+
+QC Code                 - Wedge
+Throwing Axe MDL        - Choryoth
+===========================================================================
+
+Changes Since FIRST Release:
+----------------------------
+When you press one, throwing axe is selected before regular axe, not
+after.
+
+Selecting regular axe when out of throwing axes bug is fixed.
+
+Throwing Axes now work with the CYCLE WEAPONS command
+
+Three hurt sounds now instead of just one. Not as repititious.
+(Groovy sounds from QTEST)
+
+When you run out of throwing axes, defaults to regular axe, not shotgun.
+
+Larger bounding box - axes don't sink into the floor, and they are easier
+to pick up.
+
+Anyone who dies and has at least one throwing axe will leave ONE (only one)
+throwing axe in their backpack.
+
+Axes are removed if they bounce more than 22 times. This eliminates the
+axes that get stuck in weird places and ring like alarm clocks.
+
+DO NOT let a throwing axe spank you on the head... they'll mess you up badly.
+
+
+The long-awaited throwing axe is here! You spawn with one, and you can pick
+it up after you throw it. You can also collect axes that other people throw
+(DO NOT touch them until they stop moving!!!) so it's possible to have
+several throwing axes at one time. Don't bitch about only getting one to
+start with. Wait till you see what this thing does to people.
+
+
+Installation:
+-------------
+It's easy. No messy impulses!
+
+1) Make a directory off of your QUAKE directory called THROWAXE
+
+2) Copy the PAK0.PAK from this archive into THROWAXE
+
+3) Play Quake by typing QUAKE -GAME THROWAXE
+
+
+While playing, hit 1. Quake will say "Throwing Axe". Hit 1 again and Quake
+will say "Normal Axe!" now hit your mouse button. Now go get your axe. Repeat.
+
+Notes:
+------
+Throwing axes are NOT your normal axe. You will always have your normal axe
+even if you just threw your last throwing axe.
+
+IMPULSE9 will give you 100 throwing axes along with all the other stuff. For
+those of you who wanna play Davy Crockett with the monsters.
+
+You can plug people on the rebound too. The throwing axes bounce after they
+hit something... they do less damage if you bash someone with a bouncing axe.
+
+No dammit, I will not make the throwing axe return to you. Walk your lazy ass
+over and pick it up.
+
+
+Known Problems:
+---------------
+I've fixed six problems that were EMailed to me. Thanks guys.
+
+Email me if you discover any (more) problems.
+
+If this archive was incomplete, or you are looking for source, everything
+you need is at QUAKE COMMAND. http://www.nuc.net/quake
+
+-Steve
+

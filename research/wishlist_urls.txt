@@ -1,0 +1,13 @@
+# historical locations of wanted files
+
+# ejectqc.zip
+http://www.nuc.net/quake/quakec/files/ejectqc.zip
+
+# taxkit.zip
+http://www.nuc.net/quake/c/files/taxkit.zip
+http://www.nuc.net/quake/quakec/files/taxkit.zip
+
+# taxsrc.zip
+ftp://ftp.canvasnet.com/quake/qc/taxsrc.zip
+http://www.nuc.net/quake/quakec/files/taxsrc.zip
+

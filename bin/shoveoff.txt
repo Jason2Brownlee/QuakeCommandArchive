@@ -1,0 +1,69 @@
+========================================================================
+Shove off!   8/2/96
+
+By Steve Bond           wedge@nuc.net
+Visit QUAKE COMMAND!    http://www.nuc.net/quake
+========================================================================
+
+What is it?
+-----------
+If you do not play multiplayer games, this patch is useless to you.
+
+Shove off! Is an add-on that I made for quake (With QuakeC) that lets you
+shove other players around. (Doesn't seem to work with monsters, but I
+made this patch with Deathmatch/CoOp in mind anyway) Seems that in COOP games
+or team Deathmatch games, a teammate will sometimes pin you in a corner or
+block up a doorway (purely by accident, usually) and get you killed. With
+SHOVE OFF, you can push them out of the way without inflicting any damage on
+them. It's also great for sneaking up on a deathmatch opponent that is
+sniping from a ledge or rooftop. Just give them a good shove if they are over
+lava or slime and they go into the drink.
+
+Installation:
+-------------
+1. In your Quake directory, make a directory called SHOVE
+
+2. Copy the PROGS.DAT file from this archive into the SHOVE directory
+
+3. Copy the CONFIG.CFG file from the ID1 directory into the SHOVE directory
+   and add the following line:
+
+                BIND SPACE "IMPULSE 20"
+                (space makes the spacebar the shove key. You may use
+                 whichever key you prefer)
+
+4. Start Quake by typing QUAKE -GAME SHOVE
+
+5. While playing, push the SPACEBAR (or whichever key you configured) to
+   shove other players around (provided you are close enough).
+
+6. This patch is designed for multiplayer games. Only the computer acting
+   as the server has to have this patch! Clients need only bind a key to
+   IMPULSE 20 to make use of the patch.
+
+
+Notes:
+------
+The 'shoving' of the other players is caused by a small, silent, invisible
+radius explosion that does no damage. The explosion radiates from the player
+that triggered it, the explosion also IGNORES the player that triggered it.
+
+You may also use this patch in COOP games to get over certain obstacles. If
+you have a teammate stand in front of you and jump up, you can shove them
+through the air. This is useful for spanning gaps or jumping up into
+windows, etc.
+
+Known Problems:
+---------------
+Well, the only 'problem' I can think of is that the shove is caused by a
+radius damage call... which 'shoves' everyone within a certain radius. This
+means that you can shove someone when your back is turned to them.
+
+Another 'feature' of this patch... you can and will shove everyone within the
+effective radius, so it's possible to shove 2 or 3 or more people at the
+same time.
+
+Any other problems? Do something really interesting with this patch? EMail me.
+
+- Steve
+

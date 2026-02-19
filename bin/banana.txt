@@ -1,0 +1,25 @@
+Not gonna write a major README for this.
+
+
+QC Code - Wedge
+Lovely Chiquita Nanner MDL - Choryoth
+
+Make a directory in QUAKE's directory called BANANA.
+Copy the PAK0.PAK file from this archive into BANANA.
+DO NOT COPY the pak0.pak file into your ID1 directory.
+Start Quake by typing "QUAKE -GAME BANANA"
+Bind a key to impulse 50. This throws your banana.
+You spawn with one banana. That's all you get till you die. Use it wisely.
+Single Players - IMPULSE 9 gives you 100 nanners to play with.
+(Make a really long trail of them. It's fun)
+
+Monsters will NOT slip on bananas. This is for DM.
+
+
+-Wedge 8/20/96
+
+Visit Quake Command!
+http://www.nuc.net/quake
+
+
+
