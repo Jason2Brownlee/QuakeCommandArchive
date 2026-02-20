@@ -18,7 +18,7 @@ Banana 			| n/a 	| 1996-08-20 | [banana.txt](bin/banana.txt)<br>[banana.zip](bin
 Demo Charges 	| v1.0 	| 1996-08-07 | [demochrg.txt](bin/demochrg.txt)<br>[demochrg.zip](bin/demochrg.zip)<br>[demochrg.qc](bin/demochrg.qc)
 Demo Charges 	| v2.0 	| 1996-08-08 | [democh2.txt](bin/democh2.txt)<br>[democh2.zip](bin/democh2.zip)
 Drop Stuff  	| n/a 	| 1996-08-07 | [dropstuf.txt](bin/dropstuf.txt)<br>[dropstuf.zip](bin/dropstuf.zip)
-Eject Shells 	| n/a 	| 1996-08-10 | [eject.txt](bin/eject.txt)<br>[eject.zip](bin/eject.zip)<br>ejectqc.zip
+Eject Shells 	| n/a 	| 1996-08-10 | [eject.txt](bin/eject.txt)<br>[eject.zip](bin/eject.zip)<br>ejectqc.zip<br>[eject.qc](bin/eject.qc)
 Flamethrower 	| v0.9 	| 1996-08-29 | [flame.txt](bin/flame_0.9.txt)<br>[flame.zip](bin/flame_0.9.zip)
 Flamethrower 	| v1.0 	| 1996-09-03 | [flame.txt](bin/flame.txt)<br>[flame.zip](bin/flame.zip)
 Flares 			| v? 	| 1996-07-31 | [flares.txt](bin/flares_0731.txt)
