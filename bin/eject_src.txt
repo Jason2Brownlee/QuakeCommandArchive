@@ -1,0 +1,26 @@
+
+Hi!
+
+Just a quick note on the release of the EJECT source code.
+
+The only modified .QC files are
+
+WEAPONS.QC
+PROGS.SRC
+
+and of course, the addition of EJECT.QC
+
+
+The model and sound have been included with this package - I will not get
+into documenting how to recompile this. I am simply too busy. This is a
+simple patch, and the code itself should help. Email any questions to
+wedge@nuc.net
+
+
+Thanks!
+
+-Steve
+
+visit QUAKE COMMAND - http://www.nuc.net/quake
+
+
