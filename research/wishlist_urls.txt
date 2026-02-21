@@ -11,3 +11,5 @@ http://www.nuc.net/quake/quakec/files/taxkit.zip
 ftp://ftp.canvasnet.com/quake/qc/taxsrc.zip
 http://www.nuc.net/quake/quakec/files/taxsrc.zip
 
+# testkart.zip
+ftp://ftp.dragonfire.net/users/c/chriscon/testkart.zip
