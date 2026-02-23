@@ -1,10 +1,33 @@
 # Flamethrower Research
 
+## Release History
+
+Date | Note
+---  | ---
+1996-08-29 | v0.9
+1996-09-04 | v1.0
 
 
 ## v0.9
 
 Released as `flame.zip`, and possibly `flame.txt`.
+
+Mentioned on "Shake N' Quake":
+
+> 8-29-96, Thursday, 8:00PM EST
+>
+> Quake Command has done it again! They have recently released a flame thrower QuakeC patch. I can't wait to check this out. Unfortunately, I'll have to, cause I got loads of homework to do after I finish the news.. :-(
+
+-- [http://www.canvasnet.com/quake/old/august.htm](https://web.archive.org/web/20010524020642/http://www.canvasnet.com:80/quake/old/august.htm)
+
+Mentioned on Redwoods:
+
+> ==August 30== 11:10p.m. CDT
+>
+> 1:45a.m. CDT\
+> I just got around to trying out the flame thrower patch. It is so cool! I like seeing the guys walk around on fire until they burn to death and having it not work underwater is a nice touch. Go get it from Quake Command.
+
+-- [http://redwood.stomped.com/896.html](https://web.archive.org/web/20011125212043/http://redwood.stomped.com/896.html)
 
 Readme header:
 
