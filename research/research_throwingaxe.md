@@ -22,17 +22,6 @@ A version of throwing axe mod exists on or before the 11th, we can see mention o
 
 It may or may not have been released, it may have been reported as under development.
 
-A copy of the `throwaxe.qc` from the source code release was distributed with "Wilbur's Mod".
-
-The header of this file is as follows:
-
-```text
-/*==========================================================================
-ThrowAxe.qc
-
-8/14/96 - Steve Bond (wedge@nuc.net)
-==========================================================================*/
-```
 
 ## August 15th
 
@@ -58,6 +47,17 @@ Links:
 * http://www.nuc.net/quake/quakec/files/taxsrc.zip
 * http://www.nuc.net/quake/quakec/files/ejectqc.zip
 
+A copy of the `throwaxe.qc` from the source code release was distributed with "Wilbur's Mod".
+
+The header of this file is as follows:
+
+```text
+/*==========================================================================
+ThrowAxe.qc
+
+8/14/96 - Steve Bond (wedge@nuc.net)
+==========================================================================*/
+```
 
 ## August 17th (v2.1)
 
@@ -140,6 +140,8 @@ Throwing Axe MDL        - Choryoth
 ===========================================================================
 ```
 
+A copy of the source code is distributed with the "KeyMix" mod and "Logan's X-tincion Agenda v2.0" and "Super Quake 1.25", and others.
+
 Source code header:
 
 ```text
@@ -150,6 +152,21 @@ ThrowAxe.qc - Release 2.1
 ==========================================================================*/
 ```
 
+The readme from the source code release was distributed with the "KeyMix" mod as `THROWAX2.TXT`.
+
+Source code readme header:
+
+```text
+Just a quick note following the release of the THROWAXE source:
+
+The necessary MDL and WAV files to fully recompile this have been included
+Directory structure should look like this (or similar... I'm assuming you
+don't need me to hold your hand):
+
+c:\games\quake\throwaxe -       throwaxe.mdl
+c:\games\quake\throwaxe\sound - taxhit1.wav,taxhit2.wav,taxhit3.wav,woosh.wav
+c:\games\quake\throwaxe\progs - all .QC files
+```
 
 ## Dedicated Server
 
@@ -162,6 +179,33 @@ Mentioned on "Shake N' Quake":
 > Oh yeah, I almost forgot- there is now a dedicated server at 204.49.61.30 running the awesome Throwing Axes patch. Go to the Quake Command site to read about it, and other good QC stuff too, like the airplane. That is one goood place.
 
 -- [http://www.canvasnet.com/quake/old/august.htm](https://web.archive.org/web/20010524020642/http://www.canvasnet.com:80/quake/old/august.htm)
+
+
+## Throwing Axe Kit (TAKit)
+
+A file `taxkit.zip` was linked on the Quake Command homepage as:
+
+* http://www.nuc.net/quake/c/files/taxkit.zip
+* http://www.nuc.net/quake/quakec/files/taxkit.zip
+
+This may be the media files (sound and model files) that are compiled into the PAK file distributed with the mod. It may have intended to be downloaded along side the source code release.
+
+It was linked on `http://dd.networx.net.au/quakec.html` as "source code":
+
+> Throwing Axe\
+> A must get!! The long-awaited throwing axe is here! You spawn with one, and you can pick it up after you throw it. You can also collect axes that other people throw (DO NOT touch them until they stop moving!!!) so it's possible to have several throwing axes at one time. Wait till you see what this thing does to people, especially when powered up!\
+> · author's description · Home Page · source code ·
+
+-- [http://dd.networx.net.au/quakec.html](https://web.archive.org/web/19980213042246/dd.networx.net.au/quakec.html)
+
+Links:
+
+* http://www.nuc.net/quake/c/files/throwaxe.zip
+* http://www.nuc.net/quake/c/files/throwaxe.txt
+* http://www.nuc.net/quake/
+* http://www.nuc.net/quake/c/files/taxkit.zip
+
+
 
 
 
