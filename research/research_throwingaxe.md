@@ -22,6 +22,17 @@ A version of throwing axe mod exists on or before the 11th, we can see mention o
 
 It may or may not have been released, it may have been reported as under development.
 
+A copy of the `throwaxe.qc` from the source code release was distributed with "Wilbur's Mod".
+
+The header of this file is as follows:
+
+```text
+/*==========================================================================
+ThrowAxe.qc
+
+8/14/96 - Steve Bond (wedge@nuc.net)
+==========================================================================*/
+```
 
 ## August 15th
 
@@ -90,6 +101,54 @@ Mentioned on Stomped with a release date of August 19:
 Links:
 
 * ftp://ftp.stomped.com/pub/quake/quakec/weapons/throwaxe.zip
+
+This version of the mod was preserved with the `cdrom.com` Quake archive in `idgames2/quakec/weapons/throwaxe.zip`, e.g.:
+
+* https://www.quaddicted.com/files/idgames2/quakec/weapons/throwaxe.zip
+* https://www.quaddicted.com/files/idgames2/quakec/weapons/throwaxe.txt
+
+
+Archive contents:
+
+```text
+-rw-rw-r--  0 0      0      508665 17 Aug  1996 PAK0.PAK
+-rw-rw-r--  0 0      0        2868 17 Aug  1996 THROWAXE.TXT
+```
+
+PAK contents:
+
+```text
+PAK0.PAK/progs.dat
+PAK0.PAK/sound/taxhit1.wav
+PAK0.PAK/sound/taxhit2.wav
+PAK0.PAK/sound/taxhit3.wav
+PAK0.PAK/sound/woosh.wav
+PAK0.PAK/throwaxe.mdl
+```
+
+Readme header:
+
+```text
+===========================================================================
+Throwing Axe 2.1 - Another outstanding Quake Add-On by Wedge & Choryoth!
+
+Email:                  wedge@nuc.net   choryoth@nuc.net
+Visit Quake Command:    http://www.nuc.net/quake
+
+QC Code                 - Wedge
+Throwing Axe MDL        - Choryoth
+===========================================================================
+```
+
+Source code header:
+
+```text
+/*==========================================================================
+ThrowAxe.qc - Release 2.1
+
+8/17/96 - Steve Bond (wedge@nuc.net) MDL by John Guthrie(choryoth@nuc.net)
+==========================================================================*/
+```
 
 
 ## Dedicated Server

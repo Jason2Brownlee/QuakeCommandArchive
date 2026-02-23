@@ -28,8 +28,8 @@ Flares 			| v1.0 	| 1996-08-07 | [flares.txt](bin/flares.txt)<br>[flares.zip](bi
 Jet Pack 		| v0.01 | 1996-09-25 | [qjetpack.txt](bin/qjetpack.txt)<br>[qjetpack.zip](bin/qjetpack.zip)
 Quake Kart 		| n/a 	| 1996-10-19 | [kartspec.txt](bin/kartspec.txt)<br>testkart.zip
 Shove Off 		| n/a 	| 1996-08-02 | [shoveoff.txt](bin/shoveoff.txt)<br>[shoveoff.zip](bin/shoveoff.zip)
-Throwing Axe 	| v? 	| 1996-08-14 | throwaxe.txt<br>throwaxe.zip<br>taxsrc.zip
-Throwing Axe 	| v2.1 	| 1996-08-17 | [throwaxe.txt](bin/throwaxe.txt)<br>[throwaxe.zip](bin/throwaxe.zip)<br>taxkit.zip<br>[taxsrc.txt](bin/taxsrc.txt)<br>taxsrc.zip<br>[throwaxe.qc](bin/throwaxe.qc)
+Throwing Axe 	| v? 	| 1996-08-15 | throwaxe.txt<br>throwaxe.zip<br>taxsrc.zip<br>[throwaxe.qc](bin/throwaxe_0814.qc)
+Throwing Axe 	| v2.1 	| 1996-08-17 | [throwaxe.txt](bin/throwaxe.txt)<br>[throwaxe.zip](bin/throwaxe.zip)<br>[taxsrc.txt](bin/taxsrc.txt)<br>taxsrc.zip<br>[throwaxe.qc](bin/throwaxe.qc)
 
 * **Date Format**: YYYY-MM-DD for easy sorting.
 * **No Link**: indicates that we could not locate a copy of the file yet.
