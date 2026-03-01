@@ -1,0 +1,72 @@
+===========================================================================
+
+Club Shub - Our Christmas Present to the Quake Community!
+
+Created Christmas day, 1996 - Tweaked/Released 12/26/96
+
+QuakeC Code & Sprites   : Wedge (Steve Bond)
+Clubshub.bsp & New MDL  : Choryoth (John Guthrie)
+MDL Skin                : Dan Bickell (danbickell@loop.com)
+
+Check Quake Command, we still update sometimes! http://www.nuc.net/quake
+
+===========================================================================
+
+Club Shub is a fine establishment where monsters go to loosen up after a hard
+day of guarding the castles and military bases of Quake. If this is your
+first night at Club Shub, just hide in a dark corner or stand on the upper
+deck and watch the ruckus! It may take you a while to get your courage up,
+but you'll want to get down in the pit and mosh like a madman before the
+night is over. Things may get a litle rowdy at ClubShub, but fighting is
+discouraged. Please do NOT shoot the patrons - take out your aggression in
+the pit. If any monsters die in club shub, another monster will come in
+through one of the front doors. This ensures that there will be plenty of
+action in the pit all night long. When you first start, most monsters will
+just be thrashing in the pit. Just give them some time, they'll get real
+wild.
+
+Basically, we were REAL frickin bored on Christmas day, and we somehow decided
+that we wanted to make a monster mosh pit and give it to you guys as a cheesy
+Christmas present. There's some really nice dynamic behavior on the part of
+the monsters. They mosh, run, stage dive, even crowd surf if they can land
+on anyone! There's an extra weapon in Club Shub (it's not very well hidden)
+but you still have to find it. Impulse 9 will not give you the new weapon,
+impulse 20 will activate the weapon when you find it. The new weapon is an
+old patch that has been lying around on my hard drive (with about 15 other
+never-before-seen patches) and John pestered me to put it into this add on, so
+I did. :)  When you first start out in Club Shub, don't shoot monsters. They
+are here to Mosh, not fight. No one will attack you, and if you get in a
+fight, you'll only have to deal with the guy you picked a fight with- the rest
+of the patrons will not jump you. It's a blast to watch the monsters get down
+and funky. Wait till you see an ogre crowd surfing.
+
+This patch was made in a day, guys. There are tons of features we wanted to
+add, but we decided to just finish up the features that were already in and
+release. I'm not very proud of the code I wrote for this project... it works,
+but it's pretty sloppy. :(  There are tons of little tweaks that I wanted
+to add to the animation sequences, but we've spent enough time on this one
+for now. To the best of my knowledge, all bugs are gone. The source will not
+be released.
+
+
+Known Problems:
+---------------
+-A couple fullbright pixels on the new model
+-Don't try to play normal QUAKE maps with the CLUBSHUB patch. :)
+
+
+Installation/Use:
+-----------------
+Make a directory off of your quake directory called 'clubshub'
+
+copy the pak0.pak file from this archive into the clubshub directory
+
+type 'quake -game clubshub +map clubshub' to begin.
+
+
+That's it. Merry Christmas, hope you like.
+
+-Steve
+-John
+http://www.nuc.net/quake
+http://www.nuc.net/quake/quakec

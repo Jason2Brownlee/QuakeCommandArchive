@@ -17,6 +17,7 @@ Name | Version | Date | File(s)
 Aircraft   		| v0.9 	| 1996-09-10 | [acbeta1.txt](bin/acbeta1.txt)<br>[acbeta1.zip](bin/acbeta1.zip)
 Aircraft  		| Final | 1997-06-29 | [acfinal.txt](bin/acfinal.txt)<br>[acfinal.zip](bin/acfinal.zip)
 Banana 			| n/a 	| 1996-08-20 | [banana.txt](bin/banana.txt)<br>[banana.zip](bin/banana.zip)
+Club Shub 		| n/a  	| 1996-12-26 | [clubshub.txt](bin/clubshub.txt)<br>[clubshub.zip](bin/clubshub.zip)
 Demo Charges 	| v1.0 	| 1996-08-07 | [demochrg.txt](bin/demochrg.txt)<br>[demochrg.zip](bin/demochrg.zip)<br>[demochrg.qc](bin/demochrg.qc)
 Demo Charges 	| v2.0 	| 1996-08-08 | [democh2.txt](bin/democh2.txt)<br>[democh2.zip](bin/democh2.zip)
 Drop Stuff  	| n/a 	| 1996-08-07 | [dropstuf.txt](bin/dropstuf.txt)<br>[dropstuf.zip](bin/dropstuf.zip)
@@ -51,3 +52,9 @@ Below are lists of known files missing from the archive.
 * [URL Wishlist](research/wishlist_urls.txt): list of broken URLs for files missing from the archive.
 
 If you can help, please contact me directly: jason.brownlee05@gmail.com
+
+## Acknowledgements
+
+This quake archive would not be as complete as it is without the generousness help from the Quake community.
+
+Special thank you to Max Dovgal.
